@@ -1,0 +1,87 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+// ABSTRACT
+@import "./abstract/_functions.scss";
+@import "./abstract/_mixins.scss";
+@import "./abstract/_variables.scss";
+
+// BASE
+@import "./base/_animations.scss";
+@import "./base/_base.scss";
+@import "./base/_typography.scss";
+@import "./base/_utilities.scss";
+
+// COMPONENTS
+@import "./components/_button.scss";
+@import "./components/_composition.scss";
+@import "./components/_feature-box.scss";
+@import "./components/_card.scss";
+@import "./components/_story.scss";
+@import "./components/_bg-video.scss";
+@import "./components/_form.scss";
+@import "./components/_popup.scss";
+
+// LAYOUT
+@import "./layout/_grid.scss";
+@import "./layout/_navigation.scss";
+@import "./layout/_header.scss";
+@import "./layout/_footer.scss";
+
+// PAGES
+@import "./pages/_home.scss";
+
+// THEMES
+
+
+
+// VENDORS
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* box-sizing will inherit from body, or parent containers */
+}
+
+html {
+  /*  set root font size to 10px to make for easy rem calculations
+      We set this by setting font-size to 62.5%,
+      or 10px relative to default font size of 16px
+  */
+  // definition of what 1rem is...
+  font-size: 62.5%; /* This is equal to 10px on most browsers based on 16px default font-size.*/
+}
+
+body {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+/*  */
